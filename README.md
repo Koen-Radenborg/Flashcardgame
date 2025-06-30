@@ -1,2 +1,2 @@
 # Flashcardgame
-Flash card spel
+Flash card spel ♪(^∇^*)
