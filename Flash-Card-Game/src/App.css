@@ -3,23 +3,18 @@
 
 .background-container {
   background-color: #f4d2bd;
-  min-height: 100vh;
+  height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
-
-  justify-content: flex-start;
-  padding-top: 3rem;
+  justify-content: space-evenly;
+  padding: 16px 0 24px 0;
 }
 
 .heading-title {
-  font-size: 5rem;
+  font-size: 100px;
   font-weight: bold;
-  padding-top: 2.5rem;
   color: black;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 1.5px;
@@ -35,8 +30,8 @@
 .button-group-container {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  margin-top: 9rem;
+  gap: 25px;
+  margin-top: 175px;
   align-items: center;
 }
 
@@ -46,14 +41,14 @@
   border: none;
   border-radius: 9999px;
   transition: background-color 0.2s;
-  padding: 0.75rem 2rem;
-  font-size: 1.25rem;
+  padding: 15px 25px;
+  font-size: 25px;
 }
 
 .button-large {
   background-color: #fef08a;
-  padding: 1rem 4rem;
-  font-size: 3rem;
+  padding: 16px 64px;
+  font-size: 48px;
 }
 
 .button-large:hover {
@@ -62,9 +57,8 @@
 
 .button-small {
   background-color: #fef9c3;
-  padding: 0.6rem 1.5rem;
-  font-size: 0.9rem;
-  width: 9rem;
+  padding: 6px 24px;
+  font-size: 20px;
 }
 
 .button-small:hover {

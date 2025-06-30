@@ -1,15 +1,18 @@
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Homepage from '../pages/Homepage';
+import Deckselect from '../pages/DeckSelect';
+import Gamescreen from '../pages/GameScreen';
 
 function App() {
   return (
-    <div className="background-container">
-      <h1 className="heading-title">FlashcaRPG</h1>
-      <div className="button-group-container">
-        <button className="button-base button-large">Start</button>
-        <button className="button-base button-small">Hoe het werkt</button>
-        <button className="button-base button-small">Over het spel</button>
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/DeckSelect" element={<Deckselect />} />
+        <Route path="/GameScreen" element={<Gamescreen />} />
+      </Routes>
+    </Router>
   );
 }
 
