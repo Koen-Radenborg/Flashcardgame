@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Homepage from '../pages/Homepage';
-import Deckselect from '../pages/DeckSelect';
-import Gamescreen from '../pages/GameScreen';
+import Homepage from './pages/Homepage';
+import Deckselect from './pages/DeckSelect';
+import Gamescreen from './pages/GameScreen';
 
 function App() {
   return (
