@@ -1,16 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Homepage from './pages/Homepage';
-import Deckselect from './pages/DeckSelect';
-import Gamescreen from './pages/GameScreen';
+import DeckSelect from './pages/DeckSelect';
+import GameScreen from './pages/GameScreen';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/DeckSelect" element={<Deckselect />} />
-        <Route path="/GameScreen" element={<Gamescreen />} />
+        <Route path="/deckselect" element={<DeckSelect />} />
+        <Route path="/gamescreen/:deckKey" element={<GameScreen />} />
       </Routes>
     </Router>
   );
