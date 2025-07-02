@@ -1,7 +1,10 @@
 const dierenFeitjesQuestions = {
   title: 'Dieren Feitjes',
-  shortDescription: 'Vragen over dieren en hun bijzondere eigenschappen!!',
+  shortDescription: 'Vragen over dieren!!',
   longDescription: 'Deze quiz test je kennis over allerlei interessante feiten over dieren. Van algemene weetjes over hoe dieren leven, eten en communiceren, tot minder bekende details over hun gedrag en unieke kenmerken. Of je nu een dierenliefhebber bent, je algemene kennis wil vergroten, of gewoon nieuwsgierig bent, deze quiz neemt je mee op een leerzame ontdekkingsreis door de dierenwereld. Alle vragen zijn in het Nederlands en variëren van makkelijk tot uitdagend, zodat er voor iedereen wat bij zit.',
+  primaryColor: '#4FAB5D',
+  secondaryColor: '#40914C',
+  tertiaryColor: '#FFA1A1',
   beginnerQuestions: [
     {
       id: 1,

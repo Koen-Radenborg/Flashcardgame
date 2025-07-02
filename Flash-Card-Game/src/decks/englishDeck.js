@@ -1,7 +1,10 @@
 const englishDeck = {
   title: 'Engels',
-  Shortdescription: 'Vragen over de Engelse taal!!',
+  shortDescription: 'Vragen over de Engelse taal!!',
   longDescription: 'Deze quiz test je kennis van de Engelse taal, grammaticaregels, woordkeuze, interpunctie en spelling. Je beantwoordt vragen over veelvoorkomende fouten, hoe je zinnen moet structureren en wanneer je de juiste vorm van een woord moet gebruiken.Het is een eenvoudige manier om te zien hoe goed je de basis (en een paar lastige onderdelen) van het schrijven in het Engels begrijpt. Of je nu aan het leren bent, aan het herhalen, of gewoon nieuwsgierig bent, deze quiz zal je vaardigheden op de proef stellen en je misschien iets nieuws leren onderweg. Alle vragen zijn in het Engels.',
+  primaryColor: '#FF6060',
+  secondaryColor: '#EA4343',
+  tertiaryColor: '#FFA1A1',
   beginnerQuestions: [
     {
       id: 1,

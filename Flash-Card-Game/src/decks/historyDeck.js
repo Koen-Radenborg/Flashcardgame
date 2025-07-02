@@ -2,6 +2,9 @@ const historyQuestions = {
     title: 'Geschiedenis',
     shortDescription: 'Vragen over de geschiedenis!!',
     longDescription: `Deze quiz test je kennis van belangrijke gebeurtenissen, personen, en tijdperken uit de wereldgeschiedenis. Van oude beschavingen en middeleeuwse koninkrijken tot revoluties en moderne tijden: je leert over invloedrijke momenten die de wereld gevormd hebben. Of je nu een beginner bent, je kennis wil uitbreiden, of een echte geschiedenisfanaat bent, deze quiz daagt je uit en laat je misschien zelfs nieuwe dingen ontdekken over het verleden.`,
+    primaryColor: '#F19646',
+    secondaryColor: '#D88033',
+    tertiaryColor: '#FFA1A1',
     beginnerQuestions: [
         {
             id: 1,
