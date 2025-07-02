@@ -1,7 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
-import Modal from '../components/Modal';
-import '../src/App.css';
+import '../App.css';
 
 function Homepage() {
   const navigate = useNavigate();
