@@ -1,5 +1,7 @@
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 import '../App.css';
+import Modal from '../components/Modal';
 
 function Homepage() {
   const navigate = useNavigate();
@@ -22,6 +24,18 @@ function Homepage() {
     `;
 
 
+  const aboutText = `
+    FlashcaRPG is gemaakt door faith en kiwi als oefenexamen. We wilden iets maken dat niet alleen leerzaam is, maar ook gewoon leuk om te spelen.
+
+    We kwamen al snel op het idee van een quizspel, en dachten: waarom maken we er geen mini-avontuur van? Zo werd FlashcaRPG geboren, een spel waarin je je kennis test én mijlpalen kunt behalen (want wie wil nou geen diamanten sticker?).
+
+    Alles in het spel is bedacht en gebouwd door ons, van de decks tot de puntentelling. We hopen dat jij er net zo veel plezier aan beleeft als wij tijdens het maken.
+
+    Veel speelplezier!
+  `;
+
+
+
   const openModal = (type) => {
   if (type === 'instructions') {
     setModalData({
@@ -33,7 +47,7 @@ function Homepage() {
   } else if (type === 'about') {
     setModalData({
       title: 'Over het spel',
-      content: 'Beschrijving van het spel, doel, etc.',
+      content: aboutText,
       bgColor: '#F2D2BD',
       borderColor: '#C0AA9C',
     });

@@ -1,4 +1,4 @@
-import '../src/Modal.css';
+import '../Modal.css';
 
 function Modal({ onClose, title, content, bgColor, borderColor }) {
   const handleOverlayClick = (e) => {

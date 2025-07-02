@@ -205,7 +205,7 @@ const frontEndQuestions = {
         }
     ],
 
-    intermediateQuestions: [
+    mediumQuestions: [
         {
             id: 21,
             title: "Wat is het verschil tussen == en === in JavaScript?",

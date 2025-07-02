@@ -205,7 +205,7 @@ const dierenFeitjesQuestions = {
     }
   ],
 
-  intermediateQuestions: [
+  mediumQuestions: [
     {
       id: 21,
       title: "Welk dier kan zijn hart buiten zijn lichaam laten kloppen?",

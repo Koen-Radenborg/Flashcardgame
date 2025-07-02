@@ -205,7 +205,7 @@ const historyQuestions = {
         },
     ],
 
-    intermediateQuestions: [
+    mediumQuestions: [
         {
             id: 21,
             title: "Wat was de belangrijkste oorzaak van de Eerste Wereldoorlog?",

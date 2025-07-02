@@ -1,0 +1,114 @@
+.game-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: #333;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: var(--background-color); /* voor thema achtergrond, kan inline via React */
+}
+
+/* Header met titel en score */
+.game-header {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.theme-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.top-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 1.1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.score {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.round-difficulty {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* Vraag gebied */
+.question-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+/* Vraagkaart */
+.question-card {
+  padding: 40px 30px;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1.8rem;
+  font-weight: 600;
+  /* kleur en border worden inline via React ingesteld */
+}
+
+/* Antwoorden als knoppen in een rij, onderaan */
+.answers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 10px;
+  box-sizing: border-box;
+  gap: 50px;
+  z-index: 10;
+}
+
+.answer-btn {
+  flex: 1;
+  min-width: 100px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: var(--btn-bg-color, #da75e3); /* fallback paars */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.answer-btn:hover:not(:disabled) {
+  filter: brightness(0.9);
+}
+
+.answer-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}

@@ -1,4 +1,4 @@
-const englishDeck = {
+const EnglishQuestions = {
   title: 'Engels',
   Shortdescription: 'Vragen over de Engelse taal!!',
   longDescription: 'Deze quiz test je kennis van de Engelse taal, grammaticaregels, woordkeuze, interpunctie en spelling. Je beantwoordt vragen over veelvoorkomende fouten, hoe je zinnen moet structureren en wanneer je de juiste vorm van een woord moet gebruiken.Het is een eenvoudige manier om te zien hoe goed je de basis (en een paar lastige onderdelen) van het schrijven in het Engels begrijpt. Of je nu aan het leren bent, aan het herhalen, of gewoon nieuwsgierig bent, deze quiz zal je vaardigheden op de proef stellen en je misschien iets nieuws leren onderweg. Alle vragen zijn in het Engels.',
@@ -104,7 +104,7 @@ const englishDeck = {
       ]
     }
   ],
-  intermediateQuestions: [
+  mediumQuestions: [
     {
       id: 11,
       title: "Which sentence uses the past perfect tense?",
@@ -360,4 +360,4 @@ const englishDeck = {
   ]
 };
 
-export default englishDeck;
+export default EnglishQuestions;
