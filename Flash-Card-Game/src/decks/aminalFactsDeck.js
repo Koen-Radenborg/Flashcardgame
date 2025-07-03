@@ -4,7 +4,7 @@ const dierenFeitjesQuestions = {
   longDescription: 'Deze quiz test je kennis over allerlei interessante feiten over dieren. Van algemene weetjes over hoe dieren leven, eten en communiceren, tot minder bekende details over hun gedrag en unieke kenmerken. Of je nu een dierenliefhebber bent, je algemene kennis wil vergroten, of gewoon nieuwsgierig bent, deze quiz neemt je mee op een leerzame ontdekkingsreis door de dierenwereld. Alle vragen zijn in het Nederlands en variëren van makkelijk tot uitdagend, zodat er voor iedereen wat bij zit.',
   primaryColor: '#4FAB5D',
   secondaryColor: '#40914C',
-  tertiaryColor: '#FFA1A1',
+  tertiaryColor: '#84C58D',
   beginnerQuestions: [
     {
       id: 1,

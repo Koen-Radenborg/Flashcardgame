@@ -5,11 +5,13 @@ import historyQuestions from '../decks/historyDeck.js';
 import frontEndQuestions from '../decks/front-endDeck.js';
 import generalKnowledgeQuestions from '../decks/generalKnowledgeDeck.js';
 import Deck from '../components/Deck.jsx';
+import DeckInformationModal from '../components/DeckInformationModal.jsx';
 import gsap from 'gsap'
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const DeckSelect = () => {
   const navigate = useNavigate();
+  const [selectedDeck, setSelectedDeck] = useState(null);
 
   useEffect(() => {
     const items = gsap.utils.toArray("#float");
@@ -44,10 +46,23 @@ const DeckSelect = () => {
             bgColor={deck.primaryColor}
             borderColor={deck.secondaryColor}
             shortDesc={deck.shortDescription}
-            onClick={() => navigate(`/gamescreen/${deck.key}`)}
+            onClick={() => setSelectedDeck(deck)}
           />
         ))}
       </div>
+
+      {selectedDeck && (
+        <DeckInformationModal
+          title={selectedDeck.title}
+          longDesc={selectedDeck.longDescription}
+          primaryColor={selectedDeck.primaryColor}
+          secondaryColor={selectedDeck.secondaryColor}
+          tertiaryColor={selectedDeck.tertiaryColor}
+          deckKey={selectedDeck.key}
+          onClose={() => setSelectedDeck(null)}
+          button={() => navigate(`/gamescreen/${selectedDeck.key}`)}
+        />
+      )}
     </section>
   );
 }

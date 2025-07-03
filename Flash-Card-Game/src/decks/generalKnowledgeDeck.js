@@ -4,7 +4,7 @@ const generalKnowledgeQuestions = {
     longDescription: `Deze quiz test je kennis over allerlei onderwerpen uit de echte wereld. Van wetenschap, geografie, cultuur, technologie tot geschiedenis en meer — het is een leuke en uitdagende manier om te zien hoeveel je weet over de wereld om je heen. Of je nu je algemene kennis wil opfrissen of gewoon nieuwsgierig bent, deze quiz helpt je om nieuwe feiten te leren en jezelf te testen.`,
     primaryColor: '#DA75E3',
     secondaryColor: '#CD5CD7',
-    tertiaryColor: '#FFA1A1',
+    tertiaryColor: '#F4ABFB',
     beginnerQuestions: [
         {
             id: 1,

@@ -4,7 +4,7 @@ const frontEndQuestions = {
     longDescription: 'Deze quiz test je kennis van front-end webontwikkeling, inclusief HTML, CSS, JavaScript en moderne tools zoals Flexbox, Grid en React. Je krijgt vragen over structuur, styling, interactie, best practices en veelvoorkomende fouten. Van basiskennis zoals tags en opmaak tot complexere onderwerpen zoals component-gebaseerde ontwikkeling en asynchrone functies—alles komt aan bod. Of je nu een beginner bent die wil oefenen, of een ontwikkelaar die zijn vaardigheden wil opfrissen, deze quiz helpt je om je kennis te meten en uit te breiden. Alle vragen zijn in het Nederlands.',
     primaryColor: '#318EA6',
     secondaryColor: '#1E758B',
-    tertiaryColor: '#FFA1A1',
+    tertiaryColor: '#6CC9E0',
     beginnerQuestions: [
         {
             id: 1,
