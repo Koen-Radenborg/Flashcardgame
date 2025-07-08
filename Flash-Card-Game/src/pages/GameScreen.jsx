@@ -4,6 +4,7 @@ import dierenFeitjesQuestions from "../decks/aminalFactsDeck";
 import englishQuestions from "../decks/englishDeck";
 import frontEndQuestions from "../decks/front-endDeck";
 import historyQuestions from "../decks/historyDeck";
+import planesQuestions from "../decks/planesDeck";
 import generalKnowledgeQuestions from "../decks/generalKnowledgeDeck";
 import ResultModal from "../components/ResultModal";
 import "../GameScreen.css";
@@ -43,6 +44,13 @@ const themes = {
     border: "#40914C",
     title: dierenFeitjesQuestions.title,
     deckData: dierenFeitjesQuestions,
+  },
+    planeFacts: {
+    background: planesQuestions.primaryColor,
+    card: planesQuestions.tertiaryColor,
+    border: planesQuestions.secondaryColor,
+    title: planesQuestions.title,
+    deckData: planesQuestions,
   },
 };
 

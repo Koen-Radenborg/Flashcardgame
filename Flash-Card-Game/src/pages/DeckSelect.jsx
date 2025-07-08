@@ -8,6 +8,7 @@ import Deck from '../components/Deck.jsx';
 import DeckInformationModal from '../components/DeckInformationModal.jsx';
 import gsap from 'gsap'
 import { useEffect, useState } from 'react';
+import planesQuestions from "../decks/planesDeck.js";
 
 const DeckSelect = () => {
   const navigate = useNavigate();
@@ -32,13 +33,14 @@ const DeckSelect = () => {
     { ...historyQuestions, key: "history" },
     { ...frontEndQuestions, key: "frontEnd" },
     { ...dierenFeitjesQuestions, key: "animalFacts" },
-    { ...generalKnowledgeQuestions, key: "generalKnowledge" }
+    { ...generalKnowledgeQuestions, key: "generalKnowledge" },
+    { ...planesQuestions, key: 'planeFacts'}
   ];
 
   return (
     <section className='flex text-5xl w-[100vw] gap-16 bg-[#F2D2BD] h-[100vh] justify-evenly items-center flex-col'>
       <h1 className='p-4 bg-[#ffb481] rounded-2xl text-white w-3/5 text-center'>kies een!! ♪(^∇^*)</h1>
-      <div className='flex gap-24 flex-wrap justify-center'>
+      <div className='flex gap-16 flex-wrap justify-center'>
         {decks.map((deck) => (
           <Deck
             key={deck.key}
